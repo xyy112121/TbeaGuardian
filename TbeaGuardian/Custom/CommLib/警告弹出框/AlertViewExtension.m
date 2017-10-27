@@ -15,6 +15,7 @@
     self =[super initWithFrame:frame];
     if (self) {
         //设置模板层背景色
+        
         self.backgroundColor=[UIColor colorWithRed:129/255.0 green:129/255.0 blue:129/255.0 alpha:0.7];
         
         _tipebackView =[[UIView alloc]initWithFrame:CGRectMake(30, (self.frame.size.height-150)/2, self.frame.size.width-60, frame.size.height)];
