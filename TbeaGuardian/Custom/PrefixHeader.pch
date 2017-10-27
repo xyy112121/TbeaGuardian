@@ -1,0 +1,197 @@
+//
+//  PrefixHeader.pch
+//  CcwbNews
+//
+//  Created by xyy520 on 16/5/17.
+//  Copyright © 2016年 谢 毅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//*********************************
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import "Header.h"
+#import "AFHTTPSessionManager.h"
+#import "AddInterface.h"
+#import "Interface.h"
+#import "ActionDelegate.h"
+#import "MBProgressHUD+Add.h"
+#import "AppDelegate.h"
+#import "Enum_set.h"
+#import "SMPageControl.h"
+#import "UIImageView+AFNetworking.h"
+#import "UIImage+AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "RequestInterface.h"
+#import "UIDevice+IdentifierAddition.h"
+#import "CLBottomCommentView.h"
+#import "CustomColor.h"
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "UIMyLabel.h"
+#import "HYSegmentControl.h"
+#import "UserInfo.h"
+#import "DiliWeiZhi.h"
+#import "JPhotoMagenage.h"
+#import "JQIndicatorView.h"
+#import "DiliWeiZhi.h"
+#import "UserInfo.h"
+#import "MJRefreshGifHeader.h"
+#import "UIImageView+AFNetworking.h"
+#import "MJChiBaoZiHeader.h"
+#import "MJChiBaoZiFooter.h"
+#import "YLImageView.h"
+#import "YLGIFImage.h"
+#import "UIImage+AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "XLsn0wLoop.h"
+#import <JavaScriptCore/JavaScriptCore.h>
+#import "LQXSwitch.h"
+#import <WebKit/WebKit.h>
+#import "FYAlbumManager.h"
+#import <AVFoundation/AVFoundation.h>
+#import "UIWindow+YzdHUD.h"
+#import "UIView+Extension.h"
+#import <MediaPlayer/MediaPlayerDefines.h>
+#import <UMSocialCore/UMSocialCore.h>
+#import <UShareUI/UShareUI.h>
+#import <AVKit/AVKit.h>
+#import "LCTabBarController.h"
+#import "YBPopupMenu.h"
+#import "AndyDropDownList.h"
+#import "FDPickerTimer.h"
+#import "FDTimeChooser.h"
+#import "FDCityPicker.h"
+#import "YLButton.h"
+#import "AlertViewExtension.h"
+#import "XYW8IndicatorView.h"
+#import "VBTextView.h"
+#import "AddCustomView.h"
+#import "DateTimePickerView.h"
+#import "CustomAnimation.h"
+
+//自己的view
+#import "HtmlUrl.h"
+#import "TbeaPageViewController.h"
+#import "AppDelegate.h"
+#import "TbeaCompanyIntroductionViewController.h"
+#import "TbeaContactViewController.h"
+#import "TbeaNewsDetailViewController.h"
+#import "TbeaNewsListViewController.h"
+#import "TbeaProductDetailViewController.h"
+#import "TbeaProductInstroduceViewController.h"
+#import "NearByViewController.h"
+#import "ServiceReserveViewController.h"
+#import "MyPageViewController.h"
+#import "SearchTextFieldView.h"
+#import "ButtonItemLayoutView.h"
+#import "ZJBLStoreShopTypeAlert.h"
+#import "MyPageHeaderView.h"
+#import "FocusNewsView.h"
+#import "TbeaHpCellView.h"
+#import "RegiestDonePageViewController.h"
+#import "LoginPageViewController.h"
+#import "RegiestPageViewController.h"
+#import "HpNavigateView.h"
+#import "TbeaFocusNewsView.h"
+#import "TaskSendNewViewController.h"
+#import "CustomTimeSelectViewController.h"
+#import "AddressSelectInputViewController.h"
+#import "TaskSendNewDoneViewController.h"
+#import "TaskDetailViewController.h"
+#import "PayPopConfirmView.h"
+#import "DetectApplyNewViewController.h"
+#import "MyTaskListViewController.h"
+#import "MyDetectListViewController.h"
+#import "MyDetectDetailWeiChuLiViewController.h"
+#import "MyDetectDetailYiWanGongViewController.h"
+#import "MyDetectDonePingJiaViewController.h"
+#import "MyDetectDetailYiPaiDanViewController.h"
+#import "MyDetectDetailQualifiedViewController.h"
+#import "TaskDetailYiJieDanViewController.h"
+#import "TaskDetailDaiPingJiaViewController.h"
+#import "MyTaskDetailPingJiaViewController.h"
+#import "MyPageSettingViewController.h"
+#import "SettingNewAddressViewController.h"
+#import "MyPageModifyPhoneViewController.h"
+#import "SettingModifyPwdViewController.h"
+#import "SettingAddressViewController.h"
+#import "SettingCustomViewController.h"
+#import "SettingBGImageViewController.h"
+#import "MyPageModifyPhoneDoneViewController.h"
+#import "SettingModifyPwdDoneViewController.h"
+#import "MyPageModifyPhoneNewViewController.h"
+#import "MyMessageViewController.h"
+#import "MyAttentionViewController.h"
+#import "MyWiringDiagramViewController.h"
+#import "BrokeDisplayPicView.h"
+#import "NeayByBusinessmenLisViewController.h"
+#import "NearByBusinessmenHeaderView.h"
+#import "WaterPersonHpHeaderView.h"
+#import "NearByStoreGoodsPageViewController.h"
+#import "NearByStoreHeaderView.h"
+#import "pop.h"
+#import "NearByStoreGoodsitemHeader.h"
+#import "SearchNavigateView.h"
+#import "NearByViewCommdityCategoryController.h"
+#import "NearByStoreDetailViewController.h"
+#import "NearByProductListViewController.h"
+#import "NearByWaterElectricianViewController.h"
+#import "NearByWaterElecitemHeader.h"
+#import "NearByWaterElecPersonViewController.h"
+#import "NearByWaterPersonHeaderView.h"
+#import "NearByWaterPersonInfoViewController.h"
+#import "NearByFloorListViewController.h"
+#import "NearByFloorDetailViewController.h"
+#import "NearByFloorDetailHeader.h"
+#import "NearByFloorPicarrangementViewController.h"
+#import "LLPhotoBrowser.h"
+#endif /* PrefixHeader_pch */
+
+/**
+ *  弱引用
+ */
+#define BXWeakSelf __weak typeof(self) weakSelf = self;
+
+#define BXNoteCenter [NSNotificationCenter defaultCenter]
+
+#define BXScreenH [UIScreen mainScreen].bounds.size.height
+#define BXScreenW [UIScreen mainScreen].bounds.size.width
+#define BXScreenBounds [UIScreen mainScreen].bounds
+#define BXKeyWindow [UIApplication sharedApplication].keyWindow
+
+// 随机色
+#define BXRandomColor BXColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// 设置颜色
+#define BXColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define BXAlphaColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+//保单显示文字颜色
+#define The_Prompt_Color_Nine [[UIColor alloc]initWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1]
+#define The_Prompt_Color_Six [[UIColor alloc]initWithRed:102/255.0 green:102/255.0 blue:102/255.0 alpha:1]
+#define The_Prompt_Color_Three [[UIColor alloc]initWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]
+
+#define The_MainColor BXColor(51, 153, 255)
+#define BXGlobalBg BXColor(242, 242, 242)
+// 自定义log
+#ifdef DEBUG
+
+#define BXLog(...) NSLog(@"%s %d \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+
+#else
+
+#define BXLog(...)
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
+
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TbeaGuardian/my/MyDetectApply/MyDetectDonePingJiaViewController.m"
+            timestampString = "529227371.553029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "438"
+            endingLineNumber = "438"
+            landmarkName = "-uploaddetectpingjiainfo"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MyDetectDonePingJiaViewController uploaddetectpingjiainfo]"
+                  moduleName = "TbeaGuardian"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xyy/Desktop/%E5%B7%A5%E4%BD%9C/Other/%E7%9D%BF%E5%B0%94%E7%9A%84%E4%B8%9C%E8%A5%BF/%E5%BE%B7%E9%98%B3%E7%94%B5%E5%95%86/%E4%BA%8C%E6%9C%9F/%E7%89%B9%E5%8F%98%E5%8D%AB%E5%A3%AB/%E4%BB%A3%E7%A0%81/ios/TbeaGuardian/TbeaGuardian/my/MyDetectApply/MyDetectDonePingJiaViewController.m"
+                  timestampString = "530519029.572267"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "438"
+                  endingLineNumber = "438"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__60-[MyDetectDonePingJiaViewController uploaddetectpingjiainfo]_block_invoke"
+                  moduleName = "TbeaGuardian"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xyy/Desktop/%E5%B7%A5%E4%BD%9C/Other/%E7%9D%BF%E5%B0%94%E7%9A%84%E4%B8%9C%E8%A5%BF/%E5%BE%B7%E9%98%B3%E7%94%B5%E5%95%86/%E4%BA%8C%E6%9C%9F/%E7%89%B9%E5%8F%98%E5%8D%AB%E5%A3%AB/%E4%BB%A3%E7%A0%81/ios/TbeaGuardian/TbeaGuardian/my/MyDetectApply/MyDetectDonePingJiaViewController.m"
+                  timestampString = "530519029.573735"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "440"
+                  endingLineNumber = "440"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TbeaGuardian/my/MyTask/MyTaskDetailPingJiaViewController.m"
+            timestampString = "527346558.334515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "439"
+            endingLineNumber = "439"
+            landmarkName = "-uploadtaskpingjiainfo"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MyTaskDetailPingJiaViewController uploadtaskpingjiainfo]"
+                  moduleName = "TbeaGuardian"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xyy/Desktop/%E5%B7%A5%E4%BD%9C/Other/%E7%9D%BF%E5%B0%94%E7%9A%84%E4%B8%9C%E8%A5%BF/%E5%BE%B7%E9%98%B3%E7%94%B5%E5%95%86/%E4%BA%8C%E6%9C%9F/%E7%89%B9%E5%8F%98%E5%8D%AB%E5%A3%AB/%E4%BB%A3%E7%A0%81/ios/TbeaGuardian/TbeaGuardian/my/MyTask/MyTaskDetailPingJiaViewController.m"
+                  timestampString = "530519029.577278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "439"
+                  endingLineNumber = "439"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__58-[MyTaskDetailPingJiaViewController uploadtaskpingjiainfo]_block_invoke"
+                  moduleName = "TbeaGuardian"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xyy/Desktop/%E5%B7%A5%E4%BD%9C/Other/%E7%9D%BF%E5%B0%94%E7%9A%84%E4%B8%9C%E8%A5%BF/%E5%BE%B7%E9%98%B3%E7%94%B5%E5%95%86/%E4%BA%8C%E6%9C%9F/%E7%89%B9%E5%8F%98%E5%8D%AB%E5%A3%AB/%E4%BB%A3%E7%A0%81/ios/TbeaGuardian/TbeaGuardian/my/MyTask/MyTaskDetailPingJiaViewController.m"
+                  timestampString = "530519029.579046"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "441"
+                  endingLineNumber = "441"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TbeaGuardian/my/&#x6211;&#x7684;&#x5e03;&#x7ebf;&#x56fe;/MyWiringDiagramViewController.m"
+            timestampString = "527399882.715576"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-photoTappedAd:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TbeaGuardian/my/&#x6211;&#x7684;&#x5e03;&#x7ebf;&#x56fe;/BrokeDisplayPicView.m"
+            timestampString = "527399914.924071"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-initview:FromImage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
