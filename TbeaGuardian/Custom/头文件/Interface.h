@@ -196,5 +196,5 @@
 #define RQNearByFloorDetailCode @"TBEAWS006005002000" //楼盘详细
 #define RQNearByFloorListCode @"TBEAWS006005001000" //附近 楼盘列表
 #define RQNearbyFloorPicListCode @"TBEAWS006005003000"  //楼盘图片列表
-
+#define RQGetURLHeaderFrontCode @"TBEAWS015001002000"  //获取前对缀
 

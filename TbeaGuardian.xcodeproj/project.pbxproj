@@ -93,6 +93,10 @@
 		740C8CC11F6678CE00C245EF /* service_说明.png in Resources */ = {isa = PBXBuildFile; fileRef = 740C8CBE1F6678CE00C245EF /* service_说明.png */; };
 		740C8CC21F6678CE00C245EF /* service_说明@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740C8CBF1F6678CE00C245EF /* service_说明@2x.png */; };
 		740C8CC31F6678CE00C245EF /* service_说明@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740C8CC01F6678CE00C245EF /* service_说明@3x.png */; };
+		7425388F1FC27C5000A9EA4A /* CustomQustionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742538881FC27C5000A9EA4A /* CustomQustionViewController.m */; };
+		742538901FC27C5000A9EA4A /* MyPageAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7425388A1FC27C5000A9EA4A /* MyPageAboutMeViewController.m */; };
+		742538911FC27C5000A9EA4A /* MyPageHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7425388C1FC27C5000A9EA4A /* MyPageHelpViewController.m */; };
+		742538951FC27CBE00A9EA4A /* SwiftWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742538941FC27CBE00A9EA4A /* SwiftWebview.swift */; };
 		742916BB1F72021600D1EB11 /* hp_searchiconwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 742916B81F72021600D1EB11 /* hp_searchiconwhite.png */; };
 		742916BC1F72021600D1EB11 /* hp_searchiconwhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 742916B91F72021600D1EB11 /* hp_searchiconwhite@2x.png */; };
 		742916BD1F72021600D1EB11 /* hp_searchiconwhite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 742916BA1F72021600D1EB11 /* hp_searchiconwhite@3x.png */; };
@@ -690,6 +694,14 @@
 		740C8CBE1F6678CE00C245EF /* service_说明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_说明.png"; sourceTree = "<group>"; };
 		740C8CBF1F6678CE00C245EF /* service_说明@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_说明@2x.png"; sourceTree = "<group>"; };
 		740C8CC01F6678CE00C245EF /* service_说明@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_说明@3x.png"; sourceTree = "<group>"; };
+		742538871FC27C5000A9EA4A /* CustomQustionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomQustionViewController.h; sourceTree = "<group>"; };
+		742538881FC27C5000A9EA4A /* CustomQustionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomQustionViewController.m; sourceTree = "<group>"; };
+		742538891FC27C5000A9EA4A /* MyPageAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageAboutMeViewController.h; sourceTree = "<group>"; };
+		7425388A1FC27C5000A9EA4A /* MyPageAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageAboutMeViewController.m; sourceTree = "<group>"; };
+		7425388B1FC27C5000A9EA4A /* MyPageHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageHelpViewController.h; sourceTree = "<group>"; };
+		7425388C1FC27C5000A9EA4A /* MyPageHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageHelpViewController.m; sourceTree = "<group>"; };
+		742538931FC27CBE00A9EA4A /* TbeaGuardian-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TbeaGuardian-Bridging-Header.h"; sourceTree = "<group>"; };
+		742538941FC27CBE00A9EA4A /* SwiftWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWebview.swift; sourceTree = "<group>"; };
 		742916B81F72021600D1EB11 /* hp_searchiconwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp_searchiconwhite.png; sourceTree = "<group>"; };
 		742916B91F72021600D1EB11 /* hp_searchiconwhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hp_searchiconwhite@2x.png"; sourceTree = "<group>"; };
 		742916BA1F72021600D1EB11 /* hp_searchiconwhite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hp_searchiconwhite@3x.png"; sourceTree = "<group>"; };
@@ -1884,6 +1896,21 @@
 				740C8CB41F663E4B00C245EF /* 预约top@3x.png */,
 			);
 			path = "预约服务";
+			sourceTree = "<group>";
+		};
+		742538861FC27C5000A9EA4A /* helpandabout */ = {
+			isa = PBXGroup;
+			children = (
+				742538871FC27C5000A9EA4A /* CustomQustionViewController.h */,
+				742538881FC27C5000A9EA4A /* CustomQustionViewController.m */,
+				742538891FC27C5000A9EA4A /* MyPageAboutMeViewController.h */,
+				7425388A1FC27C5000A9EA4A /* MyPageAboutMeViewController.m */,
+				7425388B1FC27C5000A9EA4A /* MyPageHelpViewController.h */,
+				7425388C1FC27C5000A9EA4A /* MyPageHelpViewController.m */,
+				742538941FC27CBE00A9EA4A /* SwiftWebview.swift */,
+				742538931FC27CBE00A9EA4A /* TbeaGuardian-Bridging-Header.h */,
+			);
+			path = helpandabout;
 			sourceTree = "<group>";
 		};
 		74356DB81F905D3600FAD89F /* 附近 */ = {
@@ -3330,6 +3357,7 @@
 		7447B26C1F628150001362BF /* my */ = {
 			isa = PBXGroup;
 			children = (
+				742538861FC27C5000A9EA4A /* helpandabout */,
 				74849C061F6F7041006BF523 /* 我的布线图 */,
 				74849C021F6F6ED1006BF523 /* Attention */,
 				74849BFE1F6F6DD9006BF523 /* 消息 */,
@@ -3967,7 +3995,8 @@
 					7447AB2A1F623810001362BF = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 64VCC3B3JQ;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -4264,6 +4293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7462CD1D1F944CC60060E2B0 /* SDWebImageManager.m in Sources */,
+				7425388F1FC27C5000A9EA4A /* CustomQustionViewController.m in Sources */,
 				7447B2DC1F628150001362BF /* TbeaCompanyIntroductionViewController.m in Sources */,
 				7447B1E81F624278001362BF /* LCPanGestureRecognizer.m in Sources */,
 				7447B2DF1F628150001362BF /* TbeaNewsListViewController.m in Sources */,
@@ -4376,6 +4406,7 @@
 				7447B26B1F624279001362BF /* UIMyLabel.m in Sources */,
 				7447B1D61F624278001362BF /* MJDIYHeader.m in Sources */,
 				7447B24B1F624279001362BF /* UIDevice+IdentifierAddition.m in Sources */,
+				742538951FC27CBE00A9EA4A /* SwiftWebview.swift in Sources */,
 				7447B1DB1F624278001362BF /* UIScrollView+MJRefresh.m in Sources */,
 				7447B2CA1F628150001362BF /* MyPageViewController.m in Sources */,
 				74F8F5521F74A37E004F5CD9 /* POPCGUtils.mm in Sources */,
@@ -4472,6 +4503,7 @@
 				7462CD221F944CC60060E2B0 /* UIImageView+HighlightedWebCache.m in Sources */,
 				7447B1821F624278001362BF /* AFURLResponseSerialization.m in Sources */,
 				7447B1C41F624278001362BF /* MJRefreshAutoStateFooter.m in Sources */,
+				742538901FC27C5000A9EA4A /* MyPageAboutMeViewController.m in Sources */,
 				74629A1A1F6A759B00F2A0E6 /* TaskDetailViewController.m in Sources */,
 				7447B1931F624278001362BF /* pinyin.c in Sources */,
 				7447B1C91F624278001362BF /* MJRefreshNormalHeader.m in Sources */,
@@ -4517,6 +4549,7 @@
 				7447B1911F624278001362BF /* ScaleAnimation.m in Sources */,
 				7447B31B1F6283E6001362BF /* MallStoreFuntionView.m in Sources */,
 				7447B3151F6283E6001362BF /* WaterPersonCellHpView.m in Sources */,
+				742538911FC27C5000A9EA4A /* MyPageHelpViewController.m in Sources */,
 				7462CD181F944CC60060E2B0 /* SDImageCacheConfig.m in Sources */,
 				7447B1D91F624278001362BF /* NSBundle+MJRefresh.m in Sources */,
 				748600E21F8B57FF0016D489 /* NearByWaterElectricianViewController.m in Sources */,
@@ -4669,6 +4702,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 64VCC3B3JQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4719,6 +4754,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reerapp.TbeaGuardian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd96b17a-458c-46df-ac83-819cf4f11a2f";
+				PROVISIONING_PROFILE_SPECIFIER = developreerapp;
+				SWIFT_OBJC_BRIDGING_HEADER = "TbeaGuardian/my/helpandabout/TbeaGuardian-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -4726,6 +4766,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 64VCC3B3JQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4776,6 +4818,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reerapp.TbeaGuardian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd96b17a-458c-46df-ac83-819cf4f11a2f";
+				PROVISIONING_PROFILE_SPECIFIER = developreerapp;
+				SWIFT_OBJC_BRIDGING_HEADER = "TbeaGuardian/my/helpandabout/TbeaGuardian-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

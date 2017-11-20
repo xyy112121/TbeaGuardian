@@ -47,13 +47,15 @@
     [self.view addSubview:viewbottom];
     
     
-    UIButton *buttonright = [[UIButton alloc] initWithFrame:CGRectMake(SCREEN_WIDTH-60-20, 20, 64, 44)];
+    UIButton *buttonright = [[UIButton alloc] initWithFrame:CGRectMake(SCREEN_WIDTH-60-20, StatusBarHeight, 64, 44)];
     [buttonright setTitle:@"发布任务" forState:UIControlStateNormal];
     buttonright.titleLabel.font = FONTN(15.0f);
     [buttonright setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [buttonright addTarget:self action: @selector(clicksendtask:) forControlEvents: UIControlEventTouchUpInside];
     [self.view addSubview:buttonright];
     [self getupdateversion];
+    
+    [self getURLPrefix];
 }
 
 -(UIView *)viewtopicon:(CGRect)frame
@@ -173,6 +175,31 @@
 }
 
 #pragma mark接口
+//获取url前缀
+-(void)getURLPrefix
+{
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"terminaltype"] = @"ios";
+    
+    [RequestInterface doGetJsonWithParametersNoAn:params App:app RequestCode:RQGetURLHeaderFrontCode ReqUrl:InterfaceRequestUrl ShowView:app.window alwaysdo:^{
+        
+    } Success:^(NSDictionary *dic) {
+        DLog(@"dic====%@",dic);
+        if([[dic objectForKey:@"success"] isEqualToString:@"true"])
+        {
+            app.GBURLPreFix = [[dic objectForKey:@"data"] objectForKey:@"url"];
+        }
+        else
+        {
+            [MBProgressHUD showError:[dic objectForKey:@"msg"] toView:app.window];
+        }
+    } Failur:^(NSString *strmsg) {
+        [MBProgressHUD showError:@"请求失败,请检查网络" toView:self.view];
+        
+    }];
+}
+
+
 
 -(void)getupdateversion
 {

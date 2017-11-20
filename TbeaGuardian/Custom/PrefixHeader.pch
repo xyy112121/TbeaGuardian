@@ -152,6 +152,8 @@
 #import "NearByFloorDetailHeader.h"
 #import "NearByFloorPicarrangementViewController.h"
 #import "LLPhotoBrowser.h"
+#import "TbeaGuardian-Swift.h"
+#import "CustomQustionViewController.h"
 #endif /* PrefixHeader_pch */
 
 /**

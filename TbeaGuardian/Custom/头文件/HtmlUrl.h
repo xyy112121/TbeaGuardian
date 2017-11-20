@@ -2,6 +2,8 @@
 #define HtmlUrlTbeaCompanyIns @"/index.php/h5forapp/Index/companyprofile" //公司简介
 #define HtmlUrlTbeaNewsZhiXun @"/index.php/h5forapp/Index/viewnews "
 #define HtmlUrlUserPersoninfo @"/index.php/h5forapp/Index/electricianserviceintroduce" //个人消息
+#define HtmlURLHelpDetail @"userhelpdetail?questionid="  //帮助中心
+#define HtmlURLAboutMeIns @"aboutplatform"  //关于我们
 
 
 #define HtmlUrlStoreOrderMangerInfo @"/index.php/store/Index/orderall/userid/nglmbx1489376723fhjtsa"  //订单管理

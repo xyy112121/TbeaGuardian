@@ -238,12 +238,21 @@
         WiringDiagram.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:WiringDiagram animated:YES];
     }
-//    else if([[dictemp objectForKey:@"id"] isEqualToString:@"companyidentify"])
-//    {
-//        UserInfoMakeUpingViewController *userinfo = [[UserInfoMakeUpingViewController alloc] init];
-//        userinfo.hidesBottomBarWhenPushed = YES;
-//        [self.navigationController pushViewController:userinfo animated:YES];
-//    }
+    else if([[dictemp objectForKey:@"id"] isEqualToString:@"aboutplatform"])  //关于我们
+    {
+        SwiftWebview * s1 = [[SwiftWebview alloc] init];
+        s1.hidesBottomBarWhenPushed = YES;
+        NSString *strurlnow = [NSString stringWithFormat:@"%@%@",[app.GBURLPreFix length]>0?app.GBURLPreFix:Interfacehtmlurlheader,HtmlURLAboutMeIns];
+        s1.FCStrURL = strurlnow;
+        s1.FCtitle = @"关于我们";
+        [self.navigationController pushViewController:s1 animated:self];
+    }
+    else if([[dictemp objectForKey:@"id"] isEqualToString:@"platformhelp"])  //帮助中心
+    {
+        CustomQustionViewController *customquestion = [[CustomQustionViewController alloc] init];
+        customquestion.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:customquestion animated:YES];
+    }
 	
 }
 

@@ -24,7 +24,7 @@
     [self initview];
     
     
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(20, StatusHeight+2, 40, 40)];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(20, StatusBarHeight+2, 40, 40)];
     [button setImage:LOADIMAGE(@"returnback", @"png") forState:UIControlStateNormal];
     [button addTarget:self action: @selector(returnback) forControlEvents: UIControlEventTouchUpInside];
     [self.view addSubview:button];

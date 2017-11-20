@@ -35,7 +35,10 @@
 	tableview.dataSource = self;
 	[self.view addSubview:tableview];
 	[self setExtraCellLineHidden:tableview];
-    
+    if (@available(iOS 11.0, *)) {
+        tableview.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    }else{
+    }
     
     
     [self gethppage];
