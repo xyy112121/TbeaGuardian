@@ -38,7 +38,7 @@
 #define RQMyTiXianMoneyCreateQRCode @"TBEAYUN005002009000"  //分销商生成二维码
 #define RQMyTiXianQRRemoveCode    @"TBEAYUN005002011000"   //删除提现二维码
 
-
+#define RQWebPicDisplayListCode @"TBEAWS002002004003"
 
 #define RQMyInputOutPutDetailListCode  @"TBEAYUN004002004000"  //收支明细
 #define RQWaterMettingViewHpCode  @"TBEAYUN004004001000"   //会议首页

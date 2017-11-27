@@ -154,6 +154,7 @@
 #import "LLPhotoBrowser.h"
 #import "TbeaGuardian-Swift.h"
 #import "CustomQustionViewController.h"
+#import "NearByProductDetailViewController.h"
 #endif /* PrefixHeader_pch */
 
 /**

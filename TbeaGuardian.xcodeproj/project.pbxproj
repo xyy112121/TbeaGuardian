@@ -126,6 +126,7 @@
 		740C8CC11F6678CE00C245EF /* service_说明.png in Resources */ = {isa = PBXBuildFile; fileRef = 740C8CBE1F6678CE00C245EF /* service_说明.png */; };
 		740C8CC21F6678CE00C245EF /* service_说明@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740C8CBF1F6678CE00C245EF /* service_说明@2x.png */; };
 		740C8CC31F6678CE00C245EF /* service_说明@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740C8CC01F6678CE00C245EF /* service_说明@3x.png */; };
+		7414C4E51FC7F5C4005E43E4 /* NearByProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7414C4E41FC7F5C4005E43E4 /* NearByProductDetailViewController.m */; };
 		7425388F1FC27C5000A9EA4A /* CustomQustionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742538881FC27C5000A9EA4A /* CustomQustionViewController.m */; };
 		742538901FC27C5000A9EA4A /* MyPageAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7425388A1FC27C5000A9EA4A /* MyPageAboutMeViewController.m */; };
 		742538911FC27C5000A9EA4A /* MyPageHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7425388C1FC27C5000A9EA4A /* MyPageHelpViewController.m */; };
@@ -754,6 +755,8 @@
 		740C8CBE1F6678CE00C245EF /* service_说明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_说明.png"; sourceTree = "<group>"; };
 		740C8CBF1F6678CE00C245EF /* service_说明@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_说明@2x.png"; sourceTree = "<group>"; };
 		740C8CC01F6678CE00C245EF /* service_说明@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_说明@3x.png"; sourceTree = "<group>"; };
+		7414C4E31FC7F5C4005E43E4 /* NearByProductDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NearByProductDetailViewController.h; sourceTree = "<group>"; };
+		7414C4E41FC7F5C4005E43E4 /* NearByProductDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearByProductDetailViewController.m; sourceTree = "<group>"; };
 		742538871FC27C5000A9EA4A /* CustomQustionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomQustionViewController.h; sourceTree = "<group>"; };
 		742538881FC27C5000A9EA4A /* CustomQustionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomQustionViewController.m; sourceTree = "<group>"; };
 		742538891FC27C5000A9EA4A /* MyPageAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageAboutMeViewController.h; sourceTree = "<group>"; };
@@ -3795,6 +3798,8 @@
 			children = (
 				748600DC1F8B1AB20016D489 /* NearByProductListViewController.h */,
 				748600DD1F8B1AB20016D489 /* NearByProductListViewController.m */,
+				7414C4E31FC7F5C4005E43E4 /* NearByProductDetailViewController.h */,
+				7414C4E41FC7F5C4005E43E4 /* NearByProductDetailViewController.m */,
 			);
 			path = "商品";
 			sourceTree = "<group>";
@@ -4328,6 +4333,7 @@
 				7447B2531F624279001362BF /* PhotoStore.m in Sources */,
 				7447B1ED1F624278001362BF /* UIView+Snapshot.m in Sources */,
 				7447B1B81F624278001362BF /* LQXSwitch.m in Sources */,
+				7414C4E51FC7F5C4005E43E4 /* NearByProductDetailViewController.m in Sources */,
 				7447B1A31F624278001362BF /* HYSegmentControl.m in Sources */,
 				74F8F5561F74A37E004F5CD9 /* POPLayerExtras.mm in Sources */,
 				7447B2631F624279001362BF /* ViewController+MASAdditions.m in Sources */,

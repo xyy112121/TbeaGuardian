@@ -287,7 +287,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    NSDictionary *dictemp = [FCarraydata objectAtIndex:indexPath.row];
+    NearByProductDetailViewController *productdetail = [[NearByProductDetailViewController alloc] init];
+    productdetail.FCdicproduct = dictemp;
+    [self.navigationController pushViewController:productdetail animated:YES];
 }
 
 #pragma mark 接口
